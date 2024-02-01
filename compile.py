@@ -31,7 +31,7 @@ for file in python_files:
 #     ext_module.cython_directives = {'language_level': "3"}
 
 setup(
-    name='actionsOpensea',
+    name='project_name',
     cmdclass={'build_ext': build_ext},
     ext_modules=cythonize(extensions, compiler_directives={'language_level': "3"}),
 )
