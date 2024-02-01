@@ -1,0 +1,5 @@
+Pipfile.lock
+build
+*.c
+*.so
+readme.txt
